@@ -1,0 +1,117 @@
+1510422889940	geckodriver	INFO	geckodriver 0.19.1
+1510422889946	geckodriver	INFO	Listening on 127.0.0.1:34937
+1510422891125	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.WWagnTEPuUw6"
+1510422892654	Marionette	INFO	Listening on port 2828
+1510422908750	geckodriver	INFO	geckodriver 0.19.1
+1510422908758	geckodriver	INFO	Listening on 127.0.0.1:47401
+1510422909926	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.IoHTvO4uOwd7"
+1510422911241	Marionette	INFO	Listening on port 2828
+1510422939953	geckodriver	INFO	geckodriver 0.19.1
+1510422939959	geckodriver	INFO	Listening on 127.0.0.1:43355
+1510422941127	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.wPSDi0jwG8xn"
+1510422942436	Marionette	INFO	Listening on port 2828
+[Child 29682] ###!!! ABORT: Aborting on channel error.: file /build/firefox-esr-9uQDEk/firefox-esr-52.4.0esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 29682] ###!!! ABORT: Aborting on channel error.: file /build/firefox-esr-9uQDEk/firefox-esr-52.4.0esr/ipc/glue/MessageChannel.cpp, line 2152
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+1510423106488	geckodriver	INFO	geckodriver 0.19.1
+1510423106496	geckodriver	INFO	Listening on 127.0.0.1:55159
+1510423107662	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Ia9fMjDYVfPz"
+1510423108985	Marionette	INFO	Listening on port 2828
+[Child 31151] ###!!! ABORT: Aborting on channel error.: file /build/firefox-esr-9uQDEk/firefox-esr-52.4.0esr/ipc/glue/MessageChannel.cpp, line 2152
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+[Child 31151] ###!!! ABORT: Aborting on channel error.: file /build/firefox-esr-9uQDEk/firefox-esr-52.4.0esr/ipc/glue/MessageChannel.cpp, line 2152
+1510423219506	geckodriver	INFO	geckodriver 0.19.1
+1510423219512	geckodriver	INFO	Listening on 127.0.0.1:54539
+1510423220688	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.l5fXnRl6ZCCd"
+1510423222001	Marionette	INFO	Listening on port 2828
+1510423259916	geckodriver	INFO	geckodriver 0.19.1
+1510423259921	geckodriver	INFO	Listening on 127.0.0.1:48115
+1510423261093	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.WlOo3Mm0wNNB"
+1510423262428	Marionette	INFO	Listening on port 2828
+[Child 31856] ###!!! ABORT: Aborting on channel error.: file /build/firefox-esr-9uQDEk/firefox-esr-52.4.0esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 31856] ###!!! ABORT: Aborting on channel error.: file /build/firefox-esr-9uQDEk/firefox-esr-52.4.0esr/ipc/glue/MessageChannel.cpp, line 2152
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+1510423339924	geckodriver	INFO	geckodriver 0.19.1
+1510423339928	geckodriver	INFO	Listening on 127.0.0.1:53559
+1510423341101	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.k3TUt57NoPOn"
+1510423342443	Marionette	INFO	Listening on port 2828
+1510423426372	geckodriver	INFO	geckodriver 0.19.1
+1510423426381	geckodriver	INFO	Listening on 127.0.0.1:44421
+1510423427548	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.OutcXEZ3noJs"
+1510423428891	Marionette	ERROR	Error on starting server: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://marionette/content/server.js :: MarionetteServer.prototype.start :: line 95"  data: no]
+[Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://marionette/content/server.js :: MarionetteServer.prototype.start :: line 95"  data: no]
+MarionetteServer.prototype.start@chrome://marionette/content/server.js:95:19
+MarionetteComponent.prototype.init@resource://gre/components/marionette.js:217:5
+MarionetteComponent.prototype.handle@resource://gre/components/marionette.js:112:5
+
+[Child 32169] ###!!! ABORT: Aborting on channel error.: file /build/firefox-esr-9uQDEk/firefox-esr-52.4.0esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 32169] ###!!! ABORT: Aborting on channel error.: file /build/firefox-esr-9uQDEk/firefox-esr-52.4.0esr/ipc/glue/MessageChannel.cpp, line 2152
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+1510423574078	geckodriver	INFO	geckodriver 0.19.1
+1510423574086	geckodriver	INFO	Listening on 127.0.0.1:55125
+1510423575253	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.AxW31uqnZ0yn"
+1510423576640	Marionette	INFO	Listening on port 2828
+[Child 32672] ###!!! ABORT: Aborting on channel error.: file /build/firefox-esr-9uQDEk/firefox-esr-52.4.0esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 32672] ###!!! ABORT: Aborting on channel error.: file /build/firefox-esr-9uQDEk/firefox-esr-52.4.0esr/ipc/glue/MessageChannel.cpp, line 2152
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3E0003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+1510423627695	geckodriver	INFO	geckodriver 0.19.1
+1510423627703	geckodriver	INFO	Listening on 127.0.0.1:33155
+1510423628873	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.PIZ8eCiFWPrJ"
+1510423630206	Marionette	INFO	Listening on port 2828
+1510423708911	geckodriver	INFO	geckodriver 0.19.1
+1510423708919	geckodriver	INFO	Listening on 127.0.0.1:52307
+1510423710083	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.a1u60lxp6fCw"
+1510423711485	Marionette	ERROR	Error on starting server: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://marionette/content/server.js :: MarionetteServer.prototype.start :: line 95"  data: no]
+[Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://marionette/content/server.js :: MarionetteServer.prototype.start :: line 95"  data: no]
+MarionetteServer.prototype.start@chrome://marionette/content/server.js:95:19
+MarionetteComponent.prototype.init@resource://gre/components/marionette.js:217:5
+MarionetteComponent.prototype.handle@resource://gre/components/marionette.js:112:5
+
+1510423872326	geckodriver	INFO	geckodriver 0.19.1
+1510423872333	geckodriver	INFO	Listening on 127.0.0.1:46049
+1510423873502	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.wVqWKoY4BE2v"
+1510423875095	Marionette	ERROR	Error on starting server: [Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://marionette/content/server.js :: MarionetteServer.prototype.start :: line 95"  data: no]
+[Exception... "Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]"  nsresult: "0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE)"  location: "JS frame :: chrome://marionette/content/server.js :: MarionetteServer.prototype.start :: line 95"  data: no]
+MarionetteServer.prototype.start@chrome://marionette/content/server.js:95:19
+MarionetteComponent.prototype.init@resource://gre/components/marionette.js:217:5
+MarionetteComponent.prototype.handle@resource://gre/components/marionette.js:112:5
+
+1510423908092	geckodriver	INFO	geckodriver 0.19.1
+1510423908097	geckodriver	INFO	Listening on 127.0.0.1:54975
+1510423909265	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.2s18fN6d8ieV"
+1510423910598	Marionette	INFO	Listening on port 2828
+1510423988963	geckodriver	INFO	geckodriver 0.19.1
+1510423988970	geckodriver	INFO	Listening on 127.0.0.1:50707
+1510423990141	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.9JU3VUACf4Ns"
+1510423991485	Marionette	INFO	Listening on port 2828
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
