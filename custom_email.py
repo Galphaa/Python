@@ -3,7 +3,7 @@ import smtplib
 host = "smtp.gmail.com"
 port = 587
 username = "keratishvili95@gmail.com"
-password = "eax1300pro"
+password = 
 from_email = username
 to_list= ["gkeratishvili@gmail.com"]
 
